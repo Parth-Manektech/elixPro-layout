@@ -1,0 +1,67 @@
+@import '../helper/_theme.scss';
+
+.header_mobile {
+    height: 123px;
+}
+
+.header_big {
+    height: 86px;
+}
+
+.header {
+    width: 100vw;
+    background-color: #343A40;
+    color: white;
+
+
+    .icon_container {
+        height: 100%;
+        min-width: 380px;
+        max-width: 380px;
+    }
+
+    .navbar {
+        height: 100%;
+        width: 100%;
+
+        .h_SEARCH {
+            height: 100%;
+            width: 100%;
+            padding: 0 20px;
+
+
+            .input-group {
+                span {
+                    border: none;
+                    background-color: #495057;
+                }
+
+                .form-control {
+                    border: none;
+                    background-color: #495057;
+                    color: #fff;
+                    padding: 7px 1px !important;
+                }
+
+                ::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+
+        .h_APP {
+            height: 100%;
+            width: fit-content;
+            padding: 0 10px;
+            border-left: 1px solid grey;
+        }
+
+        .h_PROFILE {
+            height: 100%;
+            width: fit-content;
+            padding: 0 10px;
+            border-left: 1px solid grey;
+        }
+
+    }
+}

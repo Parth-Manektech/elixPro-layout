@@ -1,0 +1,66 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.sub_layout {
+    height: calc(100vh - 86px);
+    overflow: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .sidebar_small {
+        min-width: 60px;
+        max-width: 60px;
+    }
+
+    .sidebar_big {
+        min-width: 380px;
+        max-width: 380px;
+    }
+
+
+    .sidebar_container {
+        height: 100%;
+        overflow: auto;
+        background-color: #F8F9FA;
+    }
+
+
+    .breadcrums_container_Mobile {
+        height: 70px;
+        width: 100%;
+        border-bottom: 2px solid #21252964;
+    }
+
+    .main_container_mobile {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .main_container {
+        height: calc(100% - 70px);
+        width: 100%;
+
+        .breadcrums_container {
+            height: 70px;
+            width: 100%;
+            border-bottom: 2px solid #21252964;
+        }
+
+        .page_container_mobile {
+            height: calc(100vh - 189px);
+            overflow: auto;
+        }
+
+        .page_container {
+            height: calc(100vh - 156px);
+            overflow: auto;
+        }
+    }
+}
