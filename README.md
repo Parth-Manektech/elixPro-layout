@@ -15,7 +15,7 @@ This command creates a local copy of the repository.
 ## Step 2: Navigate to the Project Directory
 Change your directory to the project folder:
 ```
-cd elixPro
+cd elixPro-layout
 ```
 
 ## Step 3: Install Dependencies
